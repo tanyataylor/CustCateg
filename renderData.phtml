@@ -1,0 +1,19 @@
+<html>
+<head>
+    <title>Category Customers</title>
+    <h4>MUST select one of the below each time:</h4>
+</head>
+<body>
+<form name="form1" method="post" action="<?php echo $_SERVER['PHP_SELF'];?>">
+    <br/>
+    Category<input type="radio" value="category" name="category">
+    Customers<input type="radio" value="customers" name="customers"><br/>
+    Enter Limit:<input type="text" size="12" maxlength="3" name="limit"><br /><br />
+    Sort Option: ID <input type="radio" value="entity_id" name="sortoption">
+    Value<input type="radio" value="value" name="sortoption"><br />
+    Sort Order: ASC <input type="radio" value="ASC" name="sortorder">
+    DSC<input type="radio" value="desc" name="sortorder"><br /><br />
+    <input type="submit" value="Submit!" size="12" name="submit"><br /><br/>
+</form>
+</body>
+</html>

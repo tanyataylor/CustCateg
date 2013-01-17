@@ -1,0 +1,1 @@
+Run index.php to start the application.
